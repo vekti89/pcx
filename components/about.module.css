@@ -1,0 +1,32 @@
+.about {
+        padding: 2rem 0rem 1rem;
+        font-weight: 300;
+    }
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+
+}
+
+.list li {
+    margin:1rem 0rem;
+}
+
+.list li::marker{
+    color:orange;
+ }
+ 
+.list li:nth-child(3n) {
+    margin:0rem;
+}
+.list li:nth-child(4n) {
+    margin:0rem;
+}
+
+@media (max-width: 768px) {
+    .list {
+        flex-direction: column;
+    }
+}

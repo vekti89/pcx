@@ -1,0 +1,8 @@
+.banner {
+    height:16rem;
+    width:100%;
+    /*background-image: url("/services/project.jpg");*/
+    background-size: cover;
+    background-position: bottom;
+    filter: brightness(0.7);
+}

@@ -1,0 +1,129 @@
+.slideshowContainer {
+    height:calc(100vh - 13rem);
+    background-color: rgb(50, 61, 71);
+}
+
+.slideshow li div {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding:0.7rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(50, 61, 71);
+    opacity:0.65; 
+    color:white;
+}
+  
+.slideshow li h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.slideshow li p {
+    font-size: 1rem;
+    margin-top:1.2rem;
+}
+
+.slideshow { 
+    position: absolute;
+    width: 100%;
+    height:calc(100vh - 13rem);
+    top: 13rem;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slideshow li { 
+    width: 100%;
+    height:calc(100vh - 13rem);
+    position: absolute;
+    text-align: center;
+    padding-top: 25vh;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 1;
+    animation: imageAnimation 15s linear infinite; 
+  }
+  
+  .slideshow li:nth-child(1) { 
+    background-image: url("/slideshow/delta-city.jpg") 
+  }
+  .slideshow li:nth-child(2) { 
+    background-image: url("/slideshow/data-protection.jpg");
+    animation-delay: 5s; 
+  }
+  .slideshow li:nth-child(3) { 
+    background-image: url("/slideshow/construction-deal.jpg");
+    animation-delay: 10s; 
+  }
+  
+  @keyframes imageAnimation { 
+    0% { 
+      opacity: 1; 
+      animation-timing-function: ease-in;
+    }
+    
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    25% {
+      opacity: 1
+    }
+    
+    30% {
+      opacity: 0
+    }
+  }
+  
+  /* Older browser support - .no-cssanimations class added by modernizr */
+  .no-cssanimations .slideshow li {
+      opacity: 1;
+    }
+
+@media (max-width: 1200px) {
+        .slideshow li div {
+            margin-left: 6rem;
+            margin-right: 6rem;
+        }
+        .slideshow li h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+
+
+@media (max-width: 768px) {
+    .slideshow li div {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+   
+    .slideshow li h1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .slideshow li div {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .slideshow li {
+        padding-top: 25vh;
+    }
+    .slideshow li h1 {
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+    .slideshow li p {
+        display: none;
+    }
+}

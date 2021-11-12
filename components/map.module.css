@@ -1,0 +1,50 @@
+.map {
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.marker {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    background: rgb(250, 180, 50);
+    border:solid 2px;
+    border-radius: 0 70% 70%;
+    box-shadow:0 0 5px rgb(250, 180, 50);
+    cursor: pointer;
+    transform-origin:0 0;
+    transform: rotateZ(-135deg);
+  }
+  
+
+  .contactData{
+      padding-top:25px;
+      height: 230px;
+  }
+
+  .contactData h5 {
+    margin:25px 0px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.contactData div {
+    padding-left:10px;
+    color:grey;
+}
+
+.contactData p:first-child {
+    color:black
+}
+
+.contactData a:hover {
+    color:rgb(250, 180, 50);
+}
+
+.contactData i {
+    color:rgb(250, 180, 50); 
+}

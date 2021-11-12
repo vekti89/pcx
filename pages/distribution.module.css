@@ -1,0 +1,74 @@
+.banner {
+    height:16rem;
+    width:100%;
+    /*background-image: url("/services/project.jpg");*/
+    background-size: cover;
+    background-position: bottom;
+    filter: brightness(0.7);
+}
+
+.bannerText {
+    position: relative;
+    top:-9rem;
+    color:white;
+    text-align: center;
+}
+
+.bannerText h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.content {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.service {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    max-width:100%;
+}
+
+.service h5 {
+    margin-bottom:25px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.service p {
+    font-weight: lighter;
+}
+
+.service ul {
+    font-weight: lighter;
+    margin: 2rem 0rem;
+}
+.service li {
+    margin: 10px 0px;
+}
+
+.service li::marker{
+   color:orange;
+}
+
+@media (max-width:768px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+    .service {
+        margin:2rem 0rem;
+    }
+}
+
+@media (max-width:576px) {
+    .bannerText h3 {
+        font-weight: bolder;
+        font-size: 1.3rem;
+    }
+}

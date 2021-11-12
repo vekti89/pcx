@@ -1,0 +1,70 @@
+.expertise {
+    background-color: rgb(248, 248, 248);
+    margin-top:1rem;
+    padding-top: 1rem;
+}
+
+.expertise h4 {
+    margin-top:1.5rem;
+    margin-bottom:1rem;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 2rem;
+
+}
+
+.expertise p {
+    color:grey;
+    font-weight: 300;
+    margin-top:2rem;
+    margin-bottom:1.5rem;
+    text-align: center;
+}
+
+.expertise section {
+    min-height:13rem;
+    padding-top:2rem;
+    text-align:center;
+    border-right:1px solid rgb(226, 226, 226);
+}
+
+.expertise section i {
+    font-size: 3rem; 
+}
+
+.expertise h5 {
+    margin-top:0.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.expertise section:hover {
+    background-color: rgb(250, 180, 50);
+    transition: background-color 200ms ease-in;
+
+}
+
+.expertise section:hover i {
+    border-bottom:5px solid white;
+}
+
+.expertise section:hover h5 {
+    color:white;
+    margin-top:0.5rem;
+    padding-top:1rem;
+    transition: padding-top 300ms ease-in;
+}
+
+@media (max-width: 576px) {
+    .expertise section{
+        min-height: 11rem;
+        border-right: none;
+        border-top: 1px solid rgb(226, 226, 226);
+    }
+    .expertise h4 {
+        margin-top:1rem;
+        margin-bottom:1rem;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+}

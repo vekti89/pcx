@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?4e3f762e3b5404db4a7933a17acd81f6") format("truetype"),
+url("./flaticon.woff?4e3f762e3b5404db4a7933a17acd81f6") format("woff"),
+url("./flaticon.woff2?4e3f762e3b5404db4a7933a17acd81f6") format("woff2"),
+url("./flaticon.eot?4e3f762e3b5404db4a7933a17acd81f6#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4e3f762e3b5404db4a7933a17acd81f6#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "system": "\f101",
+    "pin": "\f102",
+    "facebook": "\f103",
+    "instagram": "\f104",
+    "twitter": "\f105",
+    "phone-call": "\f106",
+    "clock": "\f107",
+    "ruler": "\f108",
+    "handshake": "\f109",
+    "support": "\f10a",
+);
+
+.flaticon-system:before {
+    content: map-get($flaticon-map, "system");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-ruler:before {
+    content: map-get($flaticon-map, "ruler");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon-map, "handshake");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
