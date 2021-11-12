@@ -10,19 +10,21 @@ export default function Header (){
     return (
         <>
             <section className={styles.header}>
-                <Image
+                <Link href="/"><a>
+                    <Image
                     src="/procodex-logo.png"
                     height={60}
                     width={250}
                     alt="procodex-logo"
                 />
+                </a></Link>
                 <div className={styles.info}>
                     <div className={styles.card}>
                         <i className="flaticon-phone-call"></i>
                         <div>
                             <p>PHONE NUMBER</p>
                             <p className="info">
-                                <a href="tel:+381112603821">+381 11 2603 821</a></p>
+                                <a href="tel:+381112603821">+381 11 9603 821</a></p>
                         </div>
                     </div>
                     <div className={styles.card}>

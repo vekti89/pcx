@@ -36,7 +36,7 @@ class Map extends Component {
         <div>
           <p>Procodex d.o.o</p>
           <p className="info"><i className="flaticon-pin"></i> Jovana Miodragovica 3</p>
-          <p className="info"><a href="tel:+381112603821"> <i className="flaticon-phone-call"></i> +381 11 2603 821</a></p>
+          <p className="info"><a href="tel:+381119603821"> <i className="flaticon-phone-call"></i> +381 11 9603 821</a></p>
 
         </div>
 

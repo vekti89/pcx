@@ -7,7 +7,11 @@ import styles from './sidebar.module.css'
 export default function Sidebar () {
     const projectImages = projects.map(project=>
         
-        <div className={styles.image} key={project.name} ><Image src={project.url} alt={project.name} width="100%" height="100%"/></div>
+        <div className={styles.image} key={project.name} >
+            <Link href={`/project?name=${project.name}`}><a>
+                <Image src={project.url} alt={project.name} width="100%" height="100%" />
+            </a></Link>
+        </div>
         
     )
     return (
@@ -25,6 +29,6 @@ export default function Sidebar () {
                 </Link>
             </section>
             
-        </main>
+        </main> 
     )
 }

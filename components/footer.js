@@ -22,7 +22,7 @@ export default function Footer (){
                     <h5>CONTACT</h5>
                     <div>
                         <Link href="/contact"><a><i className="flaticon-pin"></i> Jovana Miodragovica 3, Belgrade</a></Link>                        
-                        <p className="mt-3"><a href="tel:+381112603821"><i className="flaticon-phone-call"></i> +381 11 2603 821</a></p>                       
+                        <p className="mt-3"><a href="tel:+381119603821"><i className="flaticon-phone-call"></i> +381 11 9603 821</a></p>                       
                         <p><a href="mailto:vekti89@procodex.com" > <span><FontAwesomeIcon icon={faEnvelope} /> </span> office@procodex.com</a></p>                        
                     </div>
                 </div>
