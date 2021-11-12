@@ -1,9 +1,9 @@
-// The following import prevents a Font Awesome icon server-side rendering bug,
-// where the icons flash from a very large icon down to a properly sized one:
+{/* The following import prevents a Font Awesome icon server-side rendering bug,
+where the icons flash from a very large icon down to a properly sized one:*/}
 import '@fortawesome/fontawesome-svg-core/styles.css';
-// Prevent fontawesome from adding its CSS since we did it manually above:
+{/* Prevent fontawesome from adding its CSS since we did it manually above:
 import { config } from '@fortawesome/fontawesome-svg-core';
-config.autoAddCss = false; /* eslint-disable import/first */
+config.autoAddCss = false; /* eslint-disable import/first */}
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Head from "next/head";
@@ -16,7 +16,7 @@ function App({ Component, pageProps }) {
   return (
   <>
       <Head>
-// Mapbox CSS
+{/* Mapbox CSS */}
 <link
   href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css"
   rel="stylesheet"
@@ -27,15 +27,19 @@ function App({ Component, pageProps }) {
         
       <link rel="stylesheet" type="text/css" href="/icons/collection1/font/flaticon.css"/>
 
-// Responsive meta tag
+{/* Responsive meta tag */}
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-//  bootstrap CDN
+
+{/* bootstrap CDN */}
+
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossorigin="anonymous"
         />
-lightSlider library
+
+{/* lightSlider library */}
 
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

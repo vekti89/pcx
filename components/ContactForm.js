@@ -3,8 +3,7 @@ import { useState } from 'react';
 import { send } from 'emailjs-com';
 
 export default function ContactForm(props) {
-
-    //using a third-party service called EmailJS
+    {/* using a third-party service called EmailJS */}
 
 
     const [toSend, setToSend] = useState({
@@ -17,12 +16,11 @@ export default function ContactForm(props) {
       const onSubmit = (e) => {
         e.preventDefault();
         send(
-          props.service_id, //serviceID
+          props.service_id, 
           props.template_id,
-          //'template_gk8srjm', //templateID
+          
           toSend,
           props.user_id
-          //'user_XPN8BR9U2aCaOr7OYNWsq' //userID
         )
           .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
