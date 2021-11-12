@@ -37,7 +37,7 @@ export default function Home() {
                                     </ul>
                                 
                                 <p>Based on the knowledge and experience of our engineers, we are able to find optimal 
-                                    solutions for all investor's requirements, to make quick and high-quality changes 
+                                    solutions for all investor&apos;s requirements, to make quick and high-quality changes 
                                     during the execution of works, as well as to timely point out potential problems in 
                                     future system operation and suggest ways to correct them.</p>
                             </div>

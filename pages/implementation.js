@@ -28,7 +28,7 @@ export default function Implementation () {
                 <div className={styles.service}>
                     <h5>Implementation</h5>
                     <p>{services[2].short}</p>
-                    <p>Our staff is trained to perform the following works with quality in mind and according to the manufacturer's recommendations:</p>
+                    <p>Our staff is trained to perform the following works with quality in mind and according to the manufacturer&apos;s recommendations:</p>
                    
                     <ul>
                         <li>Cabling</li>

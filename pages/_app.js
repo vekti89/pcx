@@ -22,7 +22,7 @@ function App({ Component, pageProps }) {
   rel="stylesheet"
 />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"/>
         
       <link rel="stylesheet" type="text/css" href="/icons/collection1/font/flaticon.css"/>
@@ -36,15 +36,15 @@ function App({ Component, pageProps }) {
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
 
 {/* lightSlider library */}
 
-        <script
+        <script defer
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-          crossorigin="anonymous"></script>
+          crossOrigin="anonymous"></script>
       </Head>
     <Header/>
     <Component {...pageProps} />
